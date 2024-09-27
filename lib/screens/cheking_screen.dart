@@ -30,7 +30,9 @@ class CheckAuthScreen extends StatelessWidget {
                      transitionDuration: Duration(seconds:0)));
                 });
               }
-            }),
+              return Container();
+            }
+          ),
       ),
     );
   }
