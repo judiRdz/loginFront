@@ -13,7 +13,7 @@ class LoginScreen extends StatelessWidget {
       body: Container(
         child: ChangeNotifierProvider(
           create: (_) => LoginFormProvider(),
-          child: _LoginForm,
+          child: _LoginForm(),
         ),
       ),
     );
